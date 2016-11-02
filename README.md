@@ -4,7 +4,8 @@ Este repositorio contiene una serie de ejemplo de componentes de Polymer, cada e
 Para los dos ejemplo en archivos comprimidos realizar los siguientes pasos:
 
 1. Descargar y descomplimir el archivo
-2. Ejecutar el siguiente comando 
+2. Ingresar a la carpeta descomprimida
+3. Ejecutar el siguiente comando 
    Polymer serve
-3. Luego ingresar a la dirección que muestra el comando anterior y listo.
+4. Luego ingresar a la dirección que muestra el comando anterior y listo.
 

@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`my-el-basic`
+IIC3585 - Polymer Component Basic
+
+@demo demo/index.html 
+-->
+
+<dom-module id="my-el-basic">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[message]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'my-el-basic',
+
+      properties: {
+        message: {
+          type: String,
+          value: 'my-el-basic',
+        },
+      },
+
+    });
+  </script>
+</dom-module>

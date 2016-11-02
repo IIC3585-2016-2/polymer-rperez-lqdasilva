@@ -74,7 +74,7 @@ IIC3585 Meme Creator Component
             </div>
             <div class="form-control">
 
-                <paper-button id="subir" onclick="SubirImagen();">Renderizar</paper-button>
+                <paper-button id="subir" onclick="{{SubirImagen()}};">Renderizar</paper-button>
             </div>
         </div>
         <div id="meme" class="none">
@@ -109,7 +109,7 @@ IIC3585 Meme Creator Component
             },
             SubirImagen : function () {
                 console.log("SubirImagen");
-                canvas = document.getElementById("canvas");
+                canvas = document.querySelector("canvas");
                 context = canvas.getContext("2d");
 
                 canvas.width = 700;
